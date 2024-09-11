@@ -1,0 +1,132 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url(@img/homebackground_new.png) no-repeat center top;
+  background-size: cover;
+  display: block;
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.typerHeader {
+  color: var(--primary-heading-color);
+}
+
+.events-card {
+  display: flex;
+  background: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 1400px;
+  max-height: 600px;
+  margin: 20px auto;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .events-card {
+    flex-direction: column;
+    border-radius: 16px;
+    width: 90%;
+    margin: 10px auto;
+    min-height: 79vh;
+    margin-bottom: 30px;
+  }
+}
+
+.events-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 40em) {
+  .events-content {
+    order: 2;
+  }
+}
+
+.events-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .events-image {
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+}
+.events-title {
+  text-align: left;
+  padding: 0 20px 20px;
+  margin-bottom: 10px;
+}
+
+.events-title:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 4px;
+  background-color: var(--primary-heading-color);
+}
+@media (max-width: 768px) {
+  .events-title {
+    padding: 0 10px;
+  }
+
+  .events-title:after {
+    max-width: 100px;
+    height: 3px;
+  }
+}
+
+.events-description {
+  padding: 0 20px 20px;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .events-description {
+    padding: 0 10px;
+  }
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background: var(--primary-heading-color) !important;
+}
+.swiper-pagination-bullet {
+  background: white;
+  opacity: 1;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .events-subheading {
+    margin-bottom: 10px;
+  }
+}

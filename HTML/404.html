@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .container {
+        position: relative;
+        text-align: center;
+        z-index: 1;
+      }
+
+      h1 {
+        font-size: 4em;
+        margin: 0;
+      }
+
+      p {
+        font-size: 1.5em;
+        margin: 0.5em 0 2em 0;
+      }
+
+      .neon {
+        color: #fff;
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.9),
+          0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 0, 0, 0.6),
+          0 0 30px rgba(255, 0, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.4);
+      }
+
+      .burger {
+        display: block;
+        margin: 1em auto;
+        width: 120px;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+
+      .burger:hover {
+        transform: scale(1.2);
+      }
+
+      .back-btn {
+        padding: 1em 2em;
+        font-size: 1.2em;
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .back-btn:hover {
+        background-color: #fff;
+        color: #111;
+      }
+
+      /* Animated background */
+      .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("https://images.unsplash.com/photo-1567016369761-a7670b6321aa")
+          center center/cover;
+        filter: brightness(40%);
+        z-index: 0;
+      }
+
+      .disco-lights {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          45deg,
+          rgba(255, 0, 0, 0.7),
+          rgba(0, 255, 0, 0.7),
+          rgba(0, 0, 255, 0.7)
+        );
+        background-size: 200% 200%;
+        animation: lightMove 5s ease infinite;
+        z-index: 0;
+      }
+
+      @keyframes lightMove {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="disco-lights"></div>
+    <div class="container">
+      <h1 class="neon">404</h1>
+      <p>Oops! The page you're looking for isn't available.</p>
+      <img
+        class="burger"
+        src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+        alt="burger-icon"
+      />
+      <button class="back-btn" onclick="window.location.href='/'">
+        Back to Home
+      </button>
+    </div>
+  </body>
+</html>

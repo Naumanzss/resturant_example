@@ -1,0 +1,264 @@
+.table-reservation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: var(--primary-background-color);
+}
+
+.reservation-form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.reservation-title {
+  font-size: 3rem;
+  color: var(--primary-heading-color);
+  margin-bottom: 10px;
+  justify-content: center;
+  font-weight: bold;
+  display: flex;
+}
+
+.book-table-title {
+  font-size: 1.4rem;
+  color: var(--primary-subheading-color);
+  margin-bottom: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.book-table-title:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: var(--primary-heading-color);
+  transition: width 0.3s ease-in-out;
+}
+
+.book-table-title.active:after {
+  width: 250px;
+}
+
+.reservation-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.btn-reserve {
+  padding: 15px 30px;
+  background-color: var(--button-color);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 16px;
+  justify-self: center;
+}
+@media (max-width: 768px) {
+  .btn-reserve {
+    text-align: center;
+  }
+}
+.btn-reserve:hover {
+  background-color: var(--hover-state-color);
+}
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.input-field-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-field-container {
+  margin-right: 32px;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .input-field-wrapper {
+    flex-direction: column;
+  }
+  .input-field-div {
+    margin-left: 1.9rem;
+  }
+}
+
+.input-field {
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 46px;
+  border: 1px solid var(--secondary-button-hover-color);
+  display: block;
+  padding: 0.375rem 0.75rem !important;
+  font-family: "Montserrat-Medium";
+}
+.input-field:focus {
+  border-color: var(--secondary-button-color);
+  outline: none;
+}
+.input-field::placeholder {
+  font-size: 17px;
+  font-family: "Montserrat-Medium";
+}
+.input-field-error {
+  color: red;
+  font-family: "Montserrat-Medium";
+  margin-top: 5px;
+}
+.reservation-contact-div {
+  padding: 20px;
+}
+.reservation-contact {
+  display: flex;
+  justify-content: center;
+}
+.contact-link {
+  color: #337ab7;
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+/* Overlay covering the entire screen */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it sits on top of other content */
+}
+
+/* Popup box styles */
+.popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  max-width: 500px; /* Adjust based on your preference */
+  text-align: center;
+}
+
+/* Style for the close button inside the popup */
+.popup-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--button-color);
+  cursor: pointer;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-button:hover {
+  background-color: var(--hover-state-color);
+}
+
+@media (max-width: 768px) {
+  .contact-link {
+    white-space: nowrap;
+  }
+  .reservation-contact {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .table-reservation-container {
+    display: block;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reservation-form-container {
+    margin-right: 0;
+    width: 100%;
+  }
+  .reservation-form {
+    display: block;
+  }
+  .form-group input {
+    margin-bottom: 10px;
+  }
+  .reservation-title,
+  .book-table-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .book-table-title.active:after {
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .reservation-form {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .btn-reserve {
+    width: 100%;
+  }
+
+  .image-container {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    display: none;
+  }
+}

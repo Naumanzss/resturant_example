@@ -1,0 +1,117 @@
+:root {
+  --tw-bg-opacity: 1;
+  --primary-background-color: #f4f4f4;
+  --primary-heading-color: #f7931e;
+  --primary-subheading-color: #333;
+  --paragraph-color: #666;
+  --white-color: #fff;
+  --hover-state-color: rgb(234 88 12 / var(--tw-bg-opacity));
+  --button-color: rgb(249 115 22 / var(--tw-bg-opacity));
+  --secondary-button-color: #ff9900;
+  --secondary-button-hover-color: #e68a00;
+}
+body {
+  overflow-x: hidden;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10vh;
+  z-index: 9999;
+  color: #ffffff !important;
+  pointer-events: none;
+  font-size: 1em;
+  opacity: 0.5;
+  animation: fall linear infinite;
+}
+
+.happyHour-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-background-color);
+}
+@keyframes glowingText {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f7931e, 0 0 20px #f7931e,
+      0 0 25px #f7931e, 0 0 30px #f7931e, 0 0 35px #f7931e;
+  }
+  50% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #f7931e, 0 0 6px #f7931e, 0 0 8px #f7931e,
+      0 0 10px #f7931e, 0 0 12px #f7931e, 0 0 14px #f7931e;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f7931e, 0 0 20px #f7931e,
+      0 0 25px #f7931e, 0 0 30px #f7931e, 0 0 35px #f7931e;
+  }
+}
+
+.happyHour-h1 {
+  animation: glowingText 2s infinite alternate;
+}
+.happyHour-h2 {
+  animation: glowingText 2s infinite alternate;
+}
+
+/* Book Tabel Button */
+.book-table-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.book-table-btn:hover {
+  background-color: var(--hover-state-color);
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+.swiper-pagination {
+  bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .event-content {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .happyHour-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-background-color);
+  }
+  .happyHour-h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .happyHour-h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

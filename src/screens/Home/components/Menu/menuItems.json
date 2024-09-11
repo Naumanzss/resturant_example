@@ -1,0 +1,429 @@
+[
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Buffalo Chicken Wing Dip",
+    "itemDescription": "House chips served with our buffalo chicken wing dip (cream cheese, bleu cheese, shredded chicken, hot sauce, cheese blend, served hot and topped with a garnish).",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Spinach Artichoke Dip",
+    "itemDescription": "House chips served with our spinach artichoke dip (cream cheese, artichokes, spinach, a cheese blend, seasonings, served hot with a garnish).",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Chili Nachos",
+    "itemDescription": "House chips, topped with our homemade beef and bean chili, cheese, scallions, and jalapeños. Served with a side of salsa and sour cream.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Chicken Nachos",
+    "itemDescription": "House chips, topped with grilled chicken, cheese, lettuce, tomato, onion, and jalapeños. Served with a side of salsa and sour cream.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Tacos",
+    "itemDescription": "Your choice of protein, in a hard or soft shell, topped with lettuce, cheese, pico de galo, mixed peppers, taco sauce and sour cream. *3 tacos per order",
+    "itemSubDescription": "+chicken (2) +beef (2) +shrimp (3)",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Garlic Bread",
+    "itemDescription": "3 thick slices of garlic seasoned Texas toast, topped with pico de galo, and a cheese blend. Served with a side of salsa.",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Fried Pickles",
+    "itemDescription": "8 pickle spears, fried with our homemade breading, and served with our very own Grove pickle sauce.",
+    "itemSubDescription": "",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Animal Fries",
+    "itemDescription": "French fries, topped with the Grove`s special seasonings, nacho cheese, bacon (turkey), and spiced up with our Grove hot sauce.",
+    "itemSubDescription": "",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Grove Sliders",
+    "itemDescription": "Served on a bun, topped with cheese, lettuce, tomato, onion, and Grove mayo.",
+    "itemSubDescription": "",
+    "itemPrice": 13
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Chicken Sliders",
+    "itemDescription": "Served on a bun, fried chicken, topped with lettuce, tomato, pickles, and Grove mayo.",
+    "itemSubDescription": "",
+    "itemPrice": 13
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Chicken Fingers & Fries",
+    "itemDescription": "6 strips of breaded and fried chicken, served with fries, and your choice of dipping sauce. (BBQ, ranch, or honey mustard)",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Fried Fish Fingers",
+    "itemDescription": "Strips of fish, breaded and fried, served tartar sauce, Grove mayo, and garnished with a lemon wedge.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Cajun Fried Calamari",
+    "itemDescription": "Seasoned calamari rings, breaded and fried, served with Grove mayo, marinara, and garnished with a lemon wedge.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Hummus Platter",
+    "itemDescription": "House made hummus (plain or red pepper), served with pita bread, cherry tomatoes, and a spring mix.",
+    "itemSubDescription": "",
+    "itemPrice": 10
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Quesadillas",
+    "itemDescription": "A cheese blend and pico de gallo pressed into a warm flour tortilla. Served with house salsa and sour cream.",
+    "itemSubDescription": "+chicken (1) +steak (2) +shrimp (2)",
+    "itemPrice": 10
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "Fish and Chips",
+    "itemDescription": "Grilled or fried Swai fish, Grove mayo, tartar sauce, and garnished with a lemon wedge. Served with fries.",
+    "itemSubDescription": "",
+    "itemPrice": 14
+  },
+  {
+    "itemCategory": ["bites", "starters"],
+    "itemName": "The Grove Platter",
+    "itemDescription": "All your favorites! Chili nachos, French fries, chicken wings, fish fingers, chicken fingers, quesadillas, and garlic bread! Served with salsa, sour cream, grove BBQ, and lemon butter.",
+    "itemSubDescription": "",
+    "itemPrice": 35
+  },
+  {
+    "itemCategory": ["wings"],
+    "itemName": "Tofu Wings",
+    "itemDescription": "Fried tofu tossed in your choice of sauce. Served with celery.",
+    "itemSubDescription": "Wing Sauces: Grove BBQ, Golden Grove, Chili crisp, BBQ, Buffalo, Hot, Teriyaki, Honey Mustard, Sweet Chili, Umami, Hot honey, or Thai Chili. +Blue Cheese (.50)",
+    "itemPrice": 10
+  },
+  {
+    "itemCategory": ["wings"],
+    "itemName": "Chicken Wings",
+    "itemDescription": "Lightly battered, fried, and tossed in your choice of a sauce. Served with celery.",
+    "itemSubDescription": "Wing Sauces: Grove BBQ, Golden Grove, Chili crisp, BBQ, Buffalo, Hot, Teriyaki, Honey Mustard, Sweet Chili, Umami, Hot honey, or Thai Chili. +Blue Cheese (.50)",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["wings"],
+    "itemName": "Boneless Chicken Wings",
+    "itemDescription": "Lightly battered, fried, and tossed in your choice of sauce. Served with celery.",
+    "itemSubDescription": "Wing Sauces: Grove BBQ, Golden Grove, Chili crisp, BBQ, Buffalo, Hot, Teriyaki, Honey Mustard, Sweet Chili, Umami, Hot honey, or Thai Chili. +Blue Cheese (.50)",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["salads"],
+    "itemName": "Caesar Salad",
+    "itemDescription": "Chopped romaine lettuce, parmesan cheese, croutons, all tossed in caesar dressing.",
+    "itemSubDescription": "+chicken (4) +tofu (3) +steak (5) +salmon (5) +shrimp (5) +falafel (4)",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["salads"],
+    "itemName": "Steak Salad",
+    "itemDescription": "Romaine lettuce, tomato, red onion, mandarin oranges, feta cheese, and crisp tortilla strips, topped with sliced NY Strip steak, and your choice of a dressing.",
+    "itemSubDescription": "",
+    "itemPrice": 17
+  },
+  {
+    "itemCategory": ["salads"],
+    "itemName": "Sunset Salad",
+    "itemDescription": "Romaine lettuce, peppers, broccoli, tomato, red onion, and your choice of a dressing.",
+    "itemSubDescription": "+chicken (4) +tofu (3) +steak (5) +salmon (5) +shrimp (5) +falafel (4)",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["salads"],
+    "itemName": "Greek Salad",
+    "itemDescription": "Mixed greens, tomato, onions, olives, and feta cheese, with your choice of a dressing.",
+    "itemSubDescription": "+chicken (4) +tofu (3) +steak (5) +salmon (5) +shrimp (5) +falafel (4)",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["salads"],
+    "itemName": "The Grove Salmon Salad",
+    "itemDescription": "A blend of spinach and spring mix, topped with salmon and crisp tortilla strips.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["pastas"],
+    "itemName": "Primavera",
+    "itemDescription": "Cheese sauce with sauteed spinach, onion, and mushrooms.",
+    "itemSubDescription": "v +breaded or grilled chicken (4)",
+    "itemPrice": 14
+  },
+  {
+    "itemCategory": ["pastas"],
+    "itemName": "Herb Penne Pasta",
+    "itemDescription": "Cheese marinara with mushroom, onions, red pepper flakes, and seasonings.",
+    "itemSubDescription": "v +breaded or grilled chicken (4)",
+    "itemPrice": 14
+  },
+  {
+    "itemCategory": ["pastas"],
+    "itemName": "Jalapeno Steak",
+    "itemDescription": "Mustard cream sauce with pico de galo, jalapeno, mushrooms, olives, onions, and red pepper flakes. Topped with sliced NY Strip steak and feta cheese. Served with a side of bread.",
+    "itemSubDescription": "",
+    "itemPrice": 16
+  },
+  {
+    "itemCategory": ["pastas"],
+    "itemName": "Kids Cheesy Pasta",
+    "itemDescription": "Penne tossed in cheese sauce. Served with a side of bread.",
+    "itemSubDescription": "",
+    "itemPrice": 10
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "The Grove",
+    "itemDescription": "Beef patty topped with lettuce, tomato, onion, pickles, jalapeno, cheese, grilled onions and mushrooms, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Crispy Onion Burger",
+    "itemDescription": "Beef patty topped with crispy fried onions, cheese, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Super Cheesy",
+    "itemDescription": "Beef patty topped with extra cheese, lettuce, tomato, onion, pickles, and Grove’s mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Double King Patty",
+    "itemDescription": "2 beef patties topped with lettuce, tomato, onion, pickles, cheese, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 14
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Beef Bacon Burger",
+    "itemDescription": "Beef patty topped with cheese, turkey bacon, lettuce, tomato, and grove mayo served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Grove BBQ Burger",
+    "itemDescription": "Beef patty topped with Turkey bacon, grove bbq sauce, mayo, and lettuce served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["burgers"],
+    "itemName": "Falafel Burger",
+    "itemDescription": "Fried falafel patty topped with lettuce, tomato, pickles, and Grove mayo, served on bun.",
+    "itemSubDescription": "",
+    "itemPrice": 10
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Chicken Sandwich",
+    "itemDescription": "Grilled or fried chicken breast topped with lettuce, tomato, onion, pickles, cheese, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Zinger",
+    "itemDescription": "Grove’s specialty zing battered fried chicken topped with lettuce, tomato, pickles, cheese, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Buffalo Chicken Sandwich",
+    "itemDescription": "Fried chicken breast, topped with lettuce, tomato, onion, pickles, cheese, buffalo sauce, and Grove mayo.",
+    "itemSubDescription": "Add Sauces; Thai chili, sweet chili, Grove’s BBQ, honey mustard.",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Spicy Fried Chicken",
+    "itemDescription": "Spicy battered fried chicken topped with lettuce, tomato, onion, jalapeno, cheese, and Grove mayo, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Grilled BBQ Chopped Chicken",
+    "itemDescription": "Chopped grilled chicken, topped with Grove BBQ, Grove mayo, cheese, grilled mushrooms and grilled onions, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Beef BBQ",
+    "itemDescription": "Shredded steak, topped with Grove BBQ, Grove mayo, cheese, grilled mushrooms and onions, served on a bun.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Steak Sandwich",
+    "itemDescription": "Sliced NY Strip, topped with cheese, lettuce, tomato, grilled mushrooms and onions, and Grove mayo, served on a sub roll.",
+    "itemSubDescription": "",
+    "itemPrice": 12
+  },
+  {
+    "itemCategory": ["sandwiches"],
+    "itemName": "Chicken Cheese Steak",
+    "itemDescription": "Chicken, topped with cheese, lettuce, tomato, grilled mushrooms and onions, and Grove mayo, served on a sub roll.",
+    "itemSubDescription": "",
+    "itemPrice": 11
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Chocolate Brownie Sundae",
+    "itemDescription": "Warm chocolate brownie made in house, served with vanilla ice cream, chocolate syrup, house caramel, and whipped cream.",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Apple Pie",
+    "itemDescription": "Warm apple pie served on a skillet with whipped cream and house caramel.",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Cheesecake",
+    "itemDescription": "Plain cheesecake slice, drizzled with chocolate syrup, and house caramel.",
+    "itemSubDescription": "",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Carrot Cake",
+    "itemDescription": "Double layered carrot cake, cream cheese icing, drizzled with house caramel, and whipped cream.",
+    "itemSubDescription": "",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Chocolate Lava Cake",
+    "itemDescription": "Topped with whip cream, caramel, chocolate syrup, and strawberries.",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Tiramisu",
+    "itemDescription": "House made cake topped with crumbles of chocolate, strawberries, and chocolate chips.",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["desserts"],
+    "itemName": "Baklava",
+    "itemDescription": "2 pcs of Turkish sweet.",
+    "itemSubDescription": "",
+    "itemPrice": 8
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "French Fries + Poutine",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 9
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Sweet Potato Fries",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Baked Potato",
+    "itemDescription": "Butter, sour cream, and cheese.",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Mashed Potatoes with Gravy",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Sautéed Vegetables",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Rice",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Garden Salad",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["sides"],
+    "itemName": "Caesar Salad",
+    "itemDescription": "",
+    "itemSubDescription": "",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["fajitas_and_sizzles"],
+    "itemName": "Fajitas",
+    "itemDescription": "A protein of your choice, with sautéed peppers and onions on a hot skillet. Served with warm flour tortillas, shredded cheese, lettuce, house salsa, and sour cream.",
+    "itemSubDescription": "Chicken (17), Steak (18), Shrimp (19), Chicken and Shrimp (20), Chicken and Steak (21), steak and shrimp (21)",
+    "itemPrice": 0
+  },
+  {
+    "itemCategory": ["fajitas_and_sizzles"],
+    "itemName": "Sizzles",
+    "itemDescription": "A protein of your choice, with sautéed peppers and onions. Served over stir fried rice and mixed vegetables, and drizzled over with a sauce of your choice.",
+    "itemSubDescription": "Chicken (17), Steak (18), Shrimp (19), Chicken and Shrimp (20), Chicken and Steak (21),steak and shrimp (21)",
+    "itemPrice": 0
+  }
+]
